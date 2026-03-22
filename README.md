@@ -79,7 +79,7 @@ Download
 2) Docker docker-compose up -d 
 3) Запустить python -m uvicorn app.main:app --reload 
 4) Зайти http://localhost:8000/docs
-
+5) Чтобы посмотреть покрытие тестами запустить --cov=app tests/ --cov-report=term-missing -v, в UI pytest --cov=app --cov-report=html или test_Statistics/index.html
 
 **Описание БД**
 
