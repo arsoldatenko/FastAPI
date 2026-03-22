@@ -56,7 +56,7 @@ async def edit_link(
     link = await update_link(db, short_code, link_data.original_url)
     if not link:
         raise HTTPException(status_code=404, detail="Link not found")
-    return {"detail": "Сыдлка обновлена"}
+    return {"detail": "Ссылка обновлена"}
 
 
 @router.get("/links/{short_code}/stats")

@@ -73,10 +73,10 @@ Download
   "detail": "Ссылка обновлена"
 }
 
-**Инструкция по запуску:**
+**Инструкция по запуску (в т.ч. тестов):**
 
 1) Установить все зависимости 
-2) Docker docker-compose up -d
+2) Docker docker-compose up -d 
 3) Запустить python -m uvicorn app.main:app --reload 
 4) Зайти http://localhost:8000/docs
 
