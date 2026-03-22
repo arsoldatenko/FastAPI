@@ -2,7 +2,7 @@ import pytest
 import uuid
 from unittest.mock import AsyncMock, patch
 from httpx import AsyncClient
-from app.models.link import Link  # модель вашей ссылки
+from app.models.link import Link
 
 
 @pytest.mark.asyncio
